@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bayani Cabigting</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      div.container-fluid {
+        background-color: #1b1a1a;
+      }
+      a.navbar-brand {
+        font-weight: bold;
+        font-size:x-large;
+      }
+      a.nav-text {
+        color: whitesmoke;
+      }
+      a.nav-text:hover {
+        color: rgb(156, 28, 28);
+      }
+      a.dropdown-text:hover {
+        color: rgb(156, 28, 28);
+      }
+      a#home {
+        color: rgb(255, 255, 255);
+      }
+      a#home:hover {
+        color: rgb(156, 28, 28);
+      }
+      img.cos-image {
+        border-radius: 50px;
+      }
+      div.cos-name {
+        font-size: larger;
+      }
+      div.cos-source {
+        font-style: italic;
+        color: rgb(156, 28, 28);
+      }
+      .toast-header {
+        background-color:#1b1a1a;
+        color: whitesmoke;
+      }
+      .btn-close {
+        background-color: white;
+      }
+      div#footer {
+        background-color: #1b1a1a;
+      }
+      a#copyright {
+        color: whitesmoke;
+      }
+    </style>
+  </head>
+
+<!-- Navbar -->
+<nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="nav-text navbar-brand" href="#">
+      <img src="assets/logo.png" alt="Website Logo" width="70">
+      BAYANI CABIGTING
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:#e6e6ff"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a id="home" class="nav-link active" aria-current="page" href="#scrollspyHeading1">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-text nav-link" href="#scrollspyHeading2">Cosplans</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-text nav-link" href="#scrollspyHeading3">Upcoming Events</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-text nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Social Media
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-text dropdown-item" href="https://www.instagram.com/halohalonavi" target="_blank">Instagram</a></li>
+            <li><a class="dropdown-text dropdown-item" href="https://www.tiktok.com/@noodlenavi" target="_blank">Tiktok</a></li>
+            <li><a class="dropdown-text dropdown-item" href="https://www.youtube.com/@noodlenavi" target="_blank">Youtube</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div data-bs-spy="scroll" data-bs-target="#navbar-page" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+  
+<!-- Grid System 1 -->
+<h1 class="text-center pt-4" id="scrollspyHeading1">Cosplay Gallery</h1>
+<div class="container text-center">
+  <div class="row py-3">
+    <div class="col-sm">
+      <div class="row pb-2 pt-4">
+        <img class="cos-image" src="assets/chifuyu.jpg" alt="Chifuyu Cosplay" width="30%">
+      </div>
+      <div class="cos-name row">
+        <a>Chifuyu Matsuno</a>
+      </div>
+      <div class="cos-source row">
+        <a>Tokyo Revengers</a>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="row pb-2 pt-4">
+        <img class="cos-image" src="assets/fukase.jpg" alt="Fukase Cosplay" width="30%">
+      </div>
+      <div class="cos-name row">
+        <a>FUKASE</a>
+      </div>
+      <div class="cos-source row">
+        <a>Vocaloid</a>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="row pb-2 pt-4">
+        <img class="cos-image" src="assets/bram.jpg" alt="Bram Stoker Cosplay" width="30%">
+      </div>
+      <div class="cos-name row">
+        <a>Bram Stoker</a>
+      </div>
+      <div class="cos-source row">
+        <a>Bungo Stray Dogs</a>
+      </div>
+    </div>
+  </div>
+  <div class="row py-3">
+    <div class="col-sm">
+      <div class="row pb-2 pt-4">
+        <img class="cos-image" src="assets/koko.jpg" alt="Koko Cosplay" width="30%">
+      </div>
+      <div class="cos-name row">
+        <a>Hajime "Koko" Kokonoi</a>
+      </div>
+      <div class="cos-source row">
+        <a>Tokyo Revengers</a>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="row pb-2 pt-4">
+        <img class="cos-image" src="assets/aku.jpg" alt="Akutagawa Cosplay" width="30%">
+      </div>
+      <div class="cos-name row">
+        <a>Ryuunosuke Akutagawa</a>
+      </div>
+      <div class="cos-source row">
+        <a>Bungo Stray Dogs: BEAST</a>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="row pb-2 pt-4">
+        <img class="cos-image" src="assets/dazai.jpg" alt="Dazai Cosplay" width="30%">
+      </div>
+      <div class="cos-name row">
+        <a>Osamu Dazai</a>
+      </div>
+      <div class="cos-source row">
+        <a>Bungo Stray Dogs</a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+
+<!-- Grid System 2 -->
+<h1 class="text-center py-4" id="scrollspyHeading2">Cosplans</h1>
+<div class="container text-center">
+  <div class="row pb-4">
+    <div class="col-sm">
+      <div class="row pb-2 pt-4">
+        <img class="cos-image" src="assets/dan heng.jpg" alt="Dan Heng" width="30%" height="200px">
+      </div>
+      <div class="cos-name row">
+        <a>Dan Heng (Imbibitor Lunae)</a>
+      </div>
+      <div class="cos-source row">
+        <a>Honkai: Star Rail</a>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="row pb-2 pt-4">
+        <img class="cos-image" src="assets/jiaoqiu.jpg" alt="Jiaoqiu" width="30%" height="200px">
+      </div>
+      <div class="cos-name row">
+        <a>Jiaoqiu</a>
+      </div>
+      <div class="cos-source row">
+        <a>Honkai: Star Rail</a>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="row pb-2 pt-4">
+        <img class="cos-image" src="assets/piko.png" alt="Piko" width="30%" height="200px" style="border: 1px solid lightgrey">
+      </div>
+      <div class="cos-name row">
+        <a>Piko Utatane</a>
+      </div>
+      <div class="cos-source row">
+        <a>Vocaloid</a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+
+<!-- Carousel -->
+<h1 class="text-center py-4" id="scrollspyHeading3">Upcoming Events</h1>
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/holmat.png" class="d-block w-100" alt="Holiday Matsuri Logo" >
+    </div>
+    <div class="carousel-item">
+      <img src="assets/brickcity.png" class="d-block w-100" alt="Brick City Anime Festival Logo">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/collectivecon.png" class="d-block w-100" alt="Collective Con Logo">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Toast -->
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="liveToast" class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="assets/logo.png" class="rounded me-2" alt="Logo" width="10%">
+      <strong class="me-auto">Con Updates</strong>
+      <small>Holiday Matsuri: Dec 19-21</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      I will be attending Holiday Matsuri in Orlando, FL later this month. If you see me, feel free to say hi!
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+</div>
+<footer class="bg-body-tertiary text-center text-lg-start">
+  <div id="footer" class="text-center p-3">
+    <a id="copyright">&copy Bayani Cabigting 2025</a>
+  </div>
+</footer>
+
+  <body>
+    <h1></h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
